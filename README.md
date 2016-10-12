@@ -2,6 +2,7 @@
 DrawableOnClickView为了Textview设置了Drawable而没有办法设置Drawable的点击事件而生，使用方法灵活方便
 
 在xml文件中直接使用即可
+\<br>
 ![](https://github.com/l455202325/DrawableOnClickView/blob/master/imgs/xml.png)
         
 ###这块记得设置  android:clickable="true"
