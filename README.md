@@ -2,19 +2,8 @@
 DrawableOnClickView为了Textview设置了Drawable而没有办法设置Drawable的点击事件而生，使用方法灵活方便
 
 在xml文件中直接使用即可
-``<com.zixing.drawableoncliickview.DrawableClickView
-        android:id="@+id/drawableTextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="我是中间的文本"
-        android:clickable="true"
-        android:layout_centerInParent="true"
-        android:drawableBottom="@mipmap/ic_launcher"
-        android:drawableTop="@mipmap/ic_launcher"
-        android:drawableLeft="@mipmap/ic_launcher"
-        android:drawableRight="@mipmap/ic_launcher"
-        android:gravity="center"
-        android:textSize="20sp"/> ``
+<br>
+![](https://github.com/l455202325/DrawableOnClickView/blob/master/imgs/xml.png)
         
 ###这块记得设置  android:clickable="true"
 
