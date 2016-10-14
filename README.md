@@ -57,3 +57,20 @@ DrawableOnClickView为了Textview设置了Drawable而没有办法设置Drawable�
                   toastShow("我是分开设置的Buttom");
               }
           });
+
+Step 1. Add the JitPack repository to your build file
+
+Add it in your root build.gradle at the end of repositories:
+
+	allprojects {
+		repositories {
+			...
+			maven { url "https://jitpack.io" }
+		}
+	}
+Step 2. Add the dependency
+
+	dependencies {
+	        compile 'com.github.l455202325:DrawableOnClickView:V1.0.1'
+	}
+
