@@ -71,6 +71,6 @@ Add it in your root build.gradle at the end of repositories:
 Step 2. Add the dependency
 
 	dependencies {
-	        compile 'com.github.l455202325:DrawableOnClickView:V1.0.1'
+	        compile 'com.github.l455202325:DrawableOnClickView:v1.0.2'
 	}
 
