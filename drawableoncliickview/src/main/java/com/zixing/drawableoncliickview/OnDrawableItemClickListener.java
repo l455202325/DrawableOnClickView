@@ -1,5 +1,7 @@
 package com.zixing.drawableoncliickview;
 
+import android.view.View;
+
 /**
  * Created by zixing on 2016-10-13.
  *
@@ -8,5 +10,5 @@ package com.zixing.drawableoncliickview;
 
 public interface OnDrawableItemClickListener {
 
-    public void onDrawableClick(DrawableClickView view);
+    public void onDrawableClick(View view);
 }

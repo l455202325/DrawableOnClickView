@@ -5,13 +5,13 @@ import android.graphics.Rect;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
-import android.widget.TextView;
+import android.widget.EditText;
 
 /**
  * Created by zixing on 2016-10-13.
  */
 
-public class DrawableClickView extends TextView {
+public class DrawableClickEditText extends EditText {
 
     private OnDrawableClickListener onDrawableClickListener;
     private OnDrawableItemClickListener leftDrawableClickListener;
@@ -47,18 +47,18 @@ public class DrawableClickView extends TextView {
         this.bottomDrawableClickListener = bottomDrawableClickListener;
     }
 
-    public DrawableClickView(Context context) {
+    public DrawableClickEditText(Context context) {
         super(context);
 
     }
 
-    public DrawableClickView(Context context, AttributeSet attrs) {
+    public DrawableClickEditText(Context context, AttributeSet attrs) {
         super(context, attrs);
         init();
     }
 
 
-    public DrawableClickView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public DrawableClickEditText(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
         init();
     }
@@ -83,10 +83,10 @@ public class DrawableClickView extends TextView {
                 int up_x = (int) event.getRawX();
                 int up_y = (int) event.getRawY();
 
-                if (handerDrawable(up_x, up_y,lfetDrawable,DrawableEnum.LEFT)) return true;
-                if (handerDrawable(up_x, up_y,topDrawable,DrawableEnum.TOP)) return true;
-                if (handerDrawable(up_x, up_y,rightDrawable,DrawableEnum.RIGHT)) return true;
-                if (handerDrawable(up_x, up_y, bottonDrawable,DrawableEnum.BOTTOM)) return true;
+                if (handerDrawable(up_x, up_y,lfetDrawable, DrawableEnum.LEFT)) return true;
+                if (handerDrawable(up_x, up_y,topDrawable, DrawableEnum.TOP)) return true;
+                if (handerDrawable(up_x, up_y,rightDrawable, DrawableEnum.RIGHT)) return true;
+                if (handerDrawable(up_x, up_y, bottonDrawable, DrawableEnum.BOTTOM)) return true;
 
                 break;
         }
